@@ -1,0 +1,87 @@
+     Course Title                                               Course                   Course Title                                                Course
+                                                                Code                                                                                 Code
+163 Electronics and Communication Engineering with              R5224               190 Mining Engineering with MBA                                  S5402
+    M.Tech. in Wireless Communication
+                                                                                    191 Applied Geology                                              S5701
+164 Metallurgical and Materials Engineering with M.Tech. in     R5242
+    Materials Engineering                                                           192 Applied Geophysics                                           S5702
+
+165 Geological Technology                                       R5302                    Institute of Technology, Banaras Hindu University,
+                                                                                         Varanasi
+166 Geophysical Technology                                      R5303
+                                                                                    193 Ceramic Engineering                                          V4106
+167 Process Engineering with MBA                                R5403
+                                                                                    194 Chemical Engineering                                         V4107
+168 Applied Mathematics                                         R5502
+                                                                                    195 Civil Engineering                                            V4109
+169 Chemistry                                                   R5503
+                                                                                    196 Computer Science and Engineering                             V4110
+170 Physics                                                     R5507
+                                                                                    197 Electrical Engineering                                       V4111
+     Indian Institute of Technology Ropar
+                                                                                    198 Electronics Engineering                                      V4113
+171 Computer Science and Engineering                            U4110
+                                                                                    199 Mechanical Engineering                                       V4125
+172 Electrical Engineering                                      U4111
+                                                                                    200 Metallurgical Engineering                                    V4126
+173 Mechanical Engineering                                      U4125
+                                                                                    201 Mining Engineering                                           V4130
+     Indian School of Mines, Dhanbad
+                                                                                    202 Pharmaceutics                                                V4301
+174 Chemical Engineering                                        S4107
+                                                                                    203 Biochemical Engineering                                      V5204
+175 Computer Science and Engineering                            S4110
+                                                                                    204 Bioengineering with M.Tech in Biomedical Technology          V5206
+176 Electrical Engineering                                      S4111
+                                                                                    205 Ceramic Engineering                                          V5209
+177 Electronics and Communication Engineering                   S4114
+                                                                                    206 Civil Engineering with M.Tech. in Structural Engineering     V5214
+178 Environmental Engineering                                   S4119
+                                                                                    207 Computer Science and Engineering                             V5216
+179 Mechanical Engineering                                      S4125
+                                                                                    208 Electrical Engineering with M.Tech. in Power Electronics     V5223
+180 Mineral Engineering                                         S4129
+                                                                                    209 Material Science and Technology                              V5232
+181 Mining Engineering                                          S4130
+                                                                                    210 Mechanical Engineering                                       V5233
+182 Mining Machinery Engineering                                S4131
+                                                                                    211 Metallurgical Engineering                                    V5240
+183 Petroleum Engineering                                       S4134
+                                                                                    212 Mining Engineering                                           V5247
+184 Mineral Engineering with M.Tech in Mineral Engineering      S5246
+                                                                                    213 Engineering Physics                                          V5301
+185 Mining Engineering with M.Tech. in Mining Engineering       S5247
+                                                                                    214 Industrial Chemistry                                         V5304
+186 Petroleum Engineering with M.Tech in Petroleum              S5252
+    Management                                                                      215 Mathematics and Computing                                    V5305
+187 Mathematics and Computing                                   S5305               216 Pharmaceutics                                                V5801
+189 Mineral Engineering with MBA                                S5401               Serial No. 103 not used. Total Number of Courses are : 215.
+
+
+
+
+INSTITUTE            CODE     GENERAL       OBC(NCL)    OBC(NCL)-M       SC     ST       GE_PD     OBC(NCL)      OBC(NCL)       SC_PD        ST_PD       Total
+                                                                                                     _PD          -M_PD
+IIT Bhubaneswar       A           59            26              6        17       9          1         1            0              1           0         120
+IIT Bombay            B          431           192             39        129     63         13         6            1              4           2         880
+IIT Mandi             C           59            26              6        17       8          1         1            0              1           1         120
+IIT Delhi             D          416           186             38        122     63         13         6            1              4           2         851
+IIT Indore            E           58            26              6        18       9          2         1            0              0           0         120
+IIT Kharagpur         G          657           292             59        195     98         20         9            2              6           3        1341
+IIT Hyderabad         H           97            45              9        29      14          3         1            0              1           1         200
+IIT Rajasthan         J           78            35              7        23      12          2         2            0              1           0         160
+IIT Kanpur            K          405           180             37        120     60         12         7            0              4           2         827
+IIT Madras            M          410           182             37        124     62         13         6            1              2           1         838
+IIT Gandhinagar       N           58            26              6        17       9          2         1            0              1           0         120
+IIT Patna             P           59            26              6        17       9          1         1            0              1           0         120
+IIT Roorkee           R          567           253             51        169     84         18         8            1              5           3        1159
+ISM Dhanbad           S          471           210             44        139     70         10         5            1              3           1         954
+IIT Ropar             U           59            26              6        17       9          1         1            0              1           0         120
+IT-BHU Varanasi       V          515           225             49        153     83         16         7            1              5           3        1057
+IIT Guwahati          W          323           144             30        97      46         10         5            1              3           1         660
+                                4722          2100            436       1403    708        138        68            9             43          20        9647
+
+
+
+                                                                              103
+

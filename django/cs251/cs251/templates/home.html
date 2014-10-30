@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to JEE Portal</title>
+</head>
+<body>
+	
+	<h3>Welcome to JEE Choice Filling Portal</h3>
+	<p>Please Login/ Register to continue</p>
+	<div id="login">
+	<form action="/session/" method="post">
+		{% csrf_token %}
+        Roll Number: <input type="text" name="roll"><br>
+        Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" name = "pass"><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="submit" value="Login">
+
+    </form>
+    <form action="/register/" >
+    	{% csrf_token %}
+    	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="submit" value="Register">
+    </form>
+    </div>
+
+
+</body>
+</html>
