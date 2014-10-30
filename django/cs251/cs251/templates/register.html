@@ -4,23 +4,13 @@
 	<title>Register</title>
 </head>
 <body>
-	
-	{% if errors %}
-        <ul>
-            {% for error in errors %}
-            <li>{{ error }}</li>
-            {% endfor %}
-        </ul>
-    {% endif %}
-
+    <h3>Welcome to JEE Registration Page</h3>
+    <h1>Please Fill in the correct details to register</h1>
 	<div id="register">
 	<form action= "" method="post">
-    	 Roll number: <input type="text" name="roll"><br>
-    	 Passkey: <input type="text" name="passkey"><br>
-    	 Password:    <input type="password" name="passwd"><br>
-    	 Confirm Password: <input type="password" name="cpasswd"><br>		<!-- Proper addition of error in errorlist for same password-->
-    	 {% csrf_token %}
-    	 <input type="submit" value="Submit"><br>
+    	{% csrf_token %}
+        {{ form }}
+    	<input type="submit" value="Register Me"><br>
     </form>
     </div>
 </body>

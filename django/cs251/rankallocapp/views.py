@@ -3,27 +3,34 @@ from django.http import HttpResponse
 from rankallocapp.models import Candidate 
 # Create your views here.
 
-def main(request):
-	return render(request,'home.html')
-
-def register(request):
-	errors = []
+def main(request) :
 	if request.method == 'POST':
-		if not request.POST.get('roll', ''):
-			errors.append('Enter your Roll Number',)
-		if not request.POST.get('passkey', ''):
-			errors.append('Enter your passkey',)
-		if not request.POST.get('passwd',''):
-			errors.append('Enter the password',)
-		if not request.POST.get('passwd',) == request.POST.get('cpasswd',):
-			errors.append('The password fields do not match. Try Again.',)
-		if not errors:
-			my_cand = Candidate(roll=request.POST.get('roll', '') ,passwd = request.POST.get('passwd', ''),passkey = request.POST.get('passkey', ''))
+		form = LoginForm(request.POST)
+		if form.is_valid() :
+			roll = form.cleaned_data['roll']
+			passwd = form.cleaned_data['passwd']
+			##check if such a record exists in the database
+			#if(exists_in_database) :
+			##	create an instance of that candidate as my_cand and pass it to session.html page
+			#	return render(request , 'session.html' , {'my_cand : cand})
+			#else :
+			#	form = LoginForm()
+			#	return render(request , 'home.html' , {'form' : form})
+	else :
+		form = LoginForm()
+	return render(request , 'home.html' , {'form' : form})
+
+def register(request) :
+	if request.method == 'POST':
+		form = RegistrationForm(request.POST)
+		if form.is_valid() :
+			roll = form.cleaned_data['roll']
+			passwd = form.cleaned_data['passwd']
+			passkey = form.cleaned_data['passkey']
+			#create a candidate and instantiate
+			my_cand = Candidate(roll , passwd , passkey)
 			my_cand.save()
-			#add to database
-
-
-
-			return render(request, 'home.html')
-	return render(request, 'register.html',
-		{'errors': errors})
+			return HttpResponse('/home')
+	else :
+		form = RegistrationForm()
+	return render(request , 'register.html' , {'form' : form})

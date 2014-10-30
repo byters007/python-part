@@ -7,7 +7,7 @@ from django import forms
 class Programme(forms.ModelForm):
 	name = forms.CharField()
 
-class Candidate(forms.modelsForm):
+class Candidate(forms.ModelsForm):
 	roll = forms.CharField(max_length=10,min_length=10)
 	passwd = forms.CharField(widget=forms.PasswordInput())
 	passkey = forms.CharField()
